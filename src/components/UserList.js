@@ -1,4 +1,4 @@
-nst UserList = () => {
+const UserList = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
     fetch("http://localhost:5000/users")
